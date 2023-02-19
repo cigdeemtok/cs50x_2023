@@ -1,0 +1,1 @@
+This is a program that calculates the approximate grade level needed to comprehend some text. In this program we get a text as an input, then calculate the grade level using the Coleman-Liau index. The Coleman-Liau index of a text is designed to output that (U.S.) grade level that is needed to understand some text. 

@@ -8,4 +8,9 @@ And we also have a header file for us to use filter functions in filter.c and al
 ->**Blur** filter is going to soften the image. For this problem, we’ll use the “box blur,” which works by taking each pixel and, for each color value, giving it a new value by averaging the color values of neighboring pixels.<br>
 ->**Edge-detection** filter is going to detect edges in an image: lines in the image that create a boundary between one object and another. One way to achieve this effect is by applying the Sobel operator to the image.<br>
 <br>
+**There are 5 bmp files. stadium.bmp is example(original) image, and other .bmp files filtered images which i named them by filters' names.<br>
+<br>
+This is how you execute the program after you compile it with *'make filter'*:<br> $ ./filter -r IMAGE.bmp REFLECTED.bmp**
+<br>
+<br>
 Especially, blur and edge-detection filter were more challenging. So there is a link for problem definition: **[CS50-Problem Set4](https://cs50.harvard.edu/x/2023/psets/4/filter/more/)**
